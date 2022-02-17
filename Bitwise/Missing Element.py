@@ -1,9 +1,9 @@
-[https://practice.geeksforgeeks.org/explore?page=1&category[]=Bit%20Magic&sortBy=submissions]
+'''[https://practice.geeksforgeeks.org/explore?page=1&category[]=Bit%20Magic&sortBy=submissions]
 
 
 Missing Number of Elements
 
-Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
+Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.'''
 
 class Solution:
     def MissingNumber(self,res,n):
