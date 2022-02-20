@@ -4,6 +4,10 @@
         for j in range(len(matrix[0])):
             print(matrix[i][j],end=" ")
         print()'''
+
+
+'''def spiralOrder(matrix):
+    return matrix and [*matrix.pop(0)] + spiralOrder([*zip(*matrix)][::-1])'''
 def spiralmat(matrix):
     top,bottom=0,len(matrix)
     left,right=0,len(matrix[0])
